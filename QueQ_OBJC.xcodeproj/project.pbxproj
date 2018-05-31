@@ -13,6 +13,18 @@
 		474A48B320BBCE1200988FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474A48B220BBCE1200988FEC /* Assets.xcassets */; };
 		474A48B620BBCE1200988FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474A48B420BBCE1200988FEC /* LaunchScreen.storyboard */; };
 		474A48B920BBCE1200988FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 474A48B820BBCE1200988FEC /* main.m */; };
+		474A48C920BD2EED00988FEC /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 474A48C820BD2EED00988FEC /* SearchViewController.m */; };
+		474A48CC20BD304100988FEC /* BookingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 474A48CB20BD304100988FEC /* BookingViewController.m */; };
+		474A48CF20BD307800988FEC /* BookingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 474A48CE20BD307800988FEC /* BookingDetailViewController.m */; };
+		474A48D220BD309E00988FEC /* RestaurantListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 474A48D120BD309E00988FEC /* RestaurantListViewController.m */; };
+		474A48D520BD30AE00988FEC /* PromotionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 474A48D420BD30AE00988FEC /* PromotionListViewController.m */; };
+		474A48D820BD30C200988FEC /* PromotionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 474A48D720BD30C200988FEC /* PromotionDetailViewController.m */; };
+		474A48DB20BD91A200988FEC /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 474A48DA20BD91A200988FEC /* Restaurant.m */; };
+		474A48E120BDB93000988FEC /* RestaurantCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 474A48E020BDB93000988FEC /* RestaurantCell.m */; };
+		474A48E420BE3F4E00988FEC /* Promotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 474A48E320BE3F4E00988FEC /* Promotion.m */; };
+		474A48E720BE3FE200988FEC /* PromotionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 474A48E620BE3FE200988FEC /* PromotionCell.m */; };
+		474A48EA20BE5F8500988FEC /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 474A48E920BE5F8500988FEC /* Queue.m */; };
+		47890C7B20C04F2B00298598 /* HTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 47890C7A20C04F2B00298598 /* HTTPService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,30 @@
 		474A48B520BBCE1200988FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		474A48B720BBCE1200988FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		474A48B820BBCE1200988FEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		474A48C720BD2EED00988FEC /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		474A48C820BD2EED00988FEC /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		474A48CA20BD304100988FEC /* BookingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookingViewController.h; sourceTree = "<group>"; };
+		474A48CB20BD304100988FEC /* BookingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookingViewController.m; sourceTree = "<group>"; };
+		474A48CD20BD307800988FEC /* BookingDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookingDetailViewController.h; sourceTree = "<group>"; };
+		474A48CE20BD307800988FEC /* BookingDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookingDetailViewController.m; sourceTree = "<group>"; };
+		474A48D020BD309E00988FEC /* RestaurantListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestaurantListViewController.h; sourceTree = "<group>"; };
+		474A48D120BD309E00988FEC /* RestaurantListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestaurantListViewController.m; sourceTree = "<group>"; };
+		474A48D320BD30AE00988FEC /* PromotionListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromotionListViewController.h; sourceTree = "<group>"; };
+		474A48D420BD30AE00988FEC /* PromotionListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromotionListViewController.m; sourceTree = "<group>"; };
+		474A48D620BD30C200988FEC /* PromotionDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromotionDetailViewController.h; sourceTree = "<group>"; };
+		474A48D720BD30C200988FEC /* PromotionDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromotionDetailViewController.m; sourceTree = "<group>"; };
+		474A48D920BD91A200988FEC /* Restaurant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		474A48DA20BD91A200988FEC /* Restaurant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		474A48DF20BDB93000988FEC /* RestaurantCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestaurantCell.h; sourceTree = "<group>"; };
+		474A48E020BDB93000988FEC /* RestaurantCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestaurantCell.m; sourceTree = "<group>"; };
+		474A48E220BE3F4E00988FEC /* Promotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Promotion.h; sourceTree = "<group>"; };
+		474A48E320BE3F4E00988FEC /* Promotion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Promotion.m; sourceTree = "<group>"; };
+		474A48E520BE3FE200988FEC /* PromotionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromotionCell.h; sourceTree = "<group>"; };
+		474A48E620BE3FE200988FEC /* PromotionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromotionCell.m; sourceTree = "<group>"; };
+		474A48E820BE5F8500988FEC /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		474A48E920BE5F8500988FEC /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		47890C7920C04F2B00298598 /* HTTPService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPService.h; sourceTree = "<group>"; };
+		47890C7A20C04F2B00298598 /* HTTPService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTPService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +94,13 @@
 		474A48A820BBCE1100988FEC /* QueQ_OBJC */ = {
 			isa = PBXGroup;
 			children = (
+				474A48C320BD2E8200988FEC /* Model */,
+				474A48C220BD2E7800988FEC /* View */,
+				474A48C120BD2E4900988FEC /* Services */,
+				474A48C020BD2E3400988FEC /* Controller */,
+				474A48BF20BD2E3000988FEC /* New Group */,
 				474A48A920BBCE1100988FEC /* AppDelegate.h */,
 				474A48AA20BBCE1100988FEC /* AppDelegate.m */,
-				474A48AC20BBCE1100988FEC /* ViewController.h */,
-				474A48AD20BBCE1100988FEC /* ViewController.m */,
 				474A48AF20BBCE1100988FEC /* Main.storyboard */,
 				474A48B220BBCE1200988FEC /* Assets.xcassets */,
 				474A48B420BBCE1200988FEC /* LaunchScreen.storyboard */,
@@ -69,6 +108,67 @@
 				474A48B820BBCE1200988FEC /* main.m */,
 			);
 			path = QueQ_OBJC;
+			sourceTree = "<group>";
+		};
+		474A48BF20BD2E3000988FEC /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		474A48C020BD2E3400988FEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				474A48AC20BBCE1100988FEC /* ViewController.h */,
+				474A48AD20BBCE1100988FEC /* ViewController.m */,
+				474A48C720BD2EED00988FEC /* SearchViewController.h */,
+				474A48C820BD2EED00988FEC /* SearchViewController.m */,
+				474A48CA20BD304100988FEC /* BookingViewController.h */,
+				474A48CB20BD304100988FEC /* BookingViewController.m */,
+				474A48CD20BD307800988FEC /* BookingDetailViewController.h */,
+				474A48CE20BD307800988FEC /* BookingDetailViewController.m */,
+				474A48D020BD309E00988FEC /* RestaurantListViewController.h */,
+				474A48D120BD309E00988FEC /* RestaurantListViewController.m */,
+				474A48D320BD30AE00988FEC /* PromotionListViewController.h */,
+				474A48D420BD30AE00988FEC /* PromotionListViewController.m */,
+				474A48D620BD30C200988FEC /* PromotionDetailViewController.h */,
+				474A48D720BD30C200988FEC /* PromotionDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		474A48C120BD2E4900988FEC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				47890C7920C04F2B00298598 /* HTTPService.h */,
+				47890C7A20C04F2B00298598 /* HTTPService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		474A48C220BD2E7800988FEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				474A48DF20BDB93000988FEC /* RestaurantCell.h */,
+				474A48E020BDB93000988FEC /* RestaurantCell.m */,
+				474A48E520BE3FE200988FEC /* PromotionCell.h */,
+				474A48E620BE3FE200988FEC /* PromotionCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		474A48C320BD2E8200988FEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				474A48D920BD91A200988FEC /* Restaurant.h */,
+				474A48DA20BD91A200988FEC /* Restaurant.m */,
+				474A48E220BE3F4E00988FEC /* Promotion.h */,
+				474A48E320BE3F4E00988FEC /* Promotion.m */,
+				474A48E820BE5F8500988FEC /* Queue.h */,
+				474A48E920BE5F8500988FEC /* Queue.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +242,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474A48E120BDB93000988FEC /* RestaurantCell.m in Sources */,
 				474A48AE20BBCE1100988FEC /* ViewController.m in Sources */,
 				474A48B920BBCE1200988FEC /* main.m in Sources */,
+				474A48D520BD30AE00988FEC /* PromotionListViewController.m in Sources */,
+				474A48C920BD2EED00988FEC /* SearchViewController.m in Sources */,
+				474A48CF20BD307800988FEC /* BookingDetailViewController.m in Sources */,
+				47890C7B20C04F2B00298598 /* HTTPService.m in Sources */,
+				474A48E720BE3FE200988FEC /* PromotionCell.m in Sources */,
+				474A48EA20BE5F8500988FEC /* Queue.m in Sources */,
+				474A48CC20BD304100988FEC /* BookingViewController.m in Sources */,
+				474A48DB20BD91A200988FEC /* Restaurant.m in Sources */,
+				474A48D820BD30C200988FEC /* PromotionDetailViewController.m in Sources */,
+				474A48E420BE3F4E00988FEC /* Promotion.m in Sources */,
 				474A48AB20BBCE1100988FEC /* AppDelegate.m in Sources */,
+				474A48D220BD309E00988FEC /* RestaurantListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
