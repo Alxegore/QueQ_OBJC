@@ -25,6 +25,7 @@
 		474A48E720BE3FE200988FEC /* PromotionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 474A48E620BE3FE200988FEC /* PromotionCell.m */; };
 		474A48EA20BE5F8500988FEC /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 474A48E920BE5F8500988FEC /* Queue.m */; };
 		47890C7B20C04F2B00298598 /* HTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 47890C7A20C04F2B00298598 /* HTTPService.m */; };
+		47890C7E20C142C300298598 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47890C7D20C142C200298598 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		474A48E920BE5F8500988FEC /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
 		47890C7920C04F2B00298598 /* HTTPService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPService.h; sourceTree = "<group>"; };
 		47890C7A20C04F2B00298598 /* HTTPService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTPService.m; sourceTree = "<group>"; };
+		47890C7D20C142C200298598 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47890C7E20C142C300298598 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +83,7 @@
 			children = (
 				474A48A820BBCE1100988FEC /* QueQ_OBJC */,
 				474A48A720BBCE1100988FEC /* Products */,
+				47890C7C20C142C200298598 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +173,14 @@
 				474A48E920BE5F8500988FEC /* Queue.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		47890C7C20C142C200298598 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47890C7D20C142C200298598 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,7 +407,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.devaholic.QueQ-OBJC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -408,7 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.devaholic.QueQ-OBJC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

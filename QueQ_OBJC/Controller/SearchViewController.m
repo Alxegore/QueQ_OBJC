@@ -27,6 +27,10 @@
     
 }
 
+-(BOOL)shouldAutorotate{
+    return NO;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.searchBar.delegate = self;
